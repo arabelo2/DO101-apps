@@ -18,11 +18,11 @@ app.get('/Gabriel', function (req, res) {
 });
 
 app.get('/Joao', function (req, res) {
-  res.send('Como você está João? Logo, você completará 5 anos. Você está cuidando bem da vovó. O Gabriel e a Isadora estão morrendo de saudades de todos vocês.\n');
+  res.send('Como você está João? Logo, você completará 5 anos. Você está cuidando bem da vovó? O Gabriel e a Isadora estão morrendo de saudades de todos vocês.\n');
 });
 
-app.get('/Joao', function (req, res) {
-  res.send('Como você está João? Logo, você completará 5 anos. Você está cuidando bem da vovó. O Gabriel e a Isadora estão morrendo de saudades de todos vocês.\n');
+app.get('/Ana', function (req, res) {
+  res.send('Oi ... Tudo bem contigo hoje? Vai para onde agora? Depois me ligue, ok?\n');
 });
 
 app.listen(8080, function () {
